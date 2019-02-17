@@ -4,9 +4,6 @@
 # it could be 0, 4, 7, 1
 # code your #position_taken? method here!
 def position_taken?(board, index)
-  puts board.inspect
-   puts index
-   position = board[index]
    if postion == "" || position == " " || position == nil
      return false
    else
