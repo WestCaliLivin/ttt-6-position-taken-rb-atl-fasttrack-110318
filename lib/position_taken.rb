@@ -4,7 +4,7 @@
 # it could be 0, 4, 7, 1
 # code your #position_taken? method here!
 def position_taken?(board, index)
-   if position[index] == "" || position[index] == " " || position[index] == nil
+   if board[index] == "" || board[index] == " " || board[index] == nil
      return false
  else
      return true
