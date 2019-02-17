@@ -4,9 +4,9 @@
 # it could be 0, 4, 7, 1
 # code your #position_taken? method here!
 def position_taken?(board, index)
-   if postion == "" || position == " " || position == nil
+   if position == "" || position == " " || position == nil
      return false
-   else
+ else
      return true
   end
-  end
+ end
