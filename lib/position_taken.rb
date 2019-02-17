@@ -6,6 +6,10 @@
 def position_taken?(board, index)
   puts board.inspect
    puts index
-   puts board[index].inspect
-   
-end
+   position = board[index]
+   if postion == "" || position == " " || position == nil
+     return false
+   else
+     return true
+  end
+  end
